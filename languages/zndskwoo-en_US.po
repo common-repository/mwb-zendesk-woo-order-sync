@@ -1,0 +1,484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Sync with Zendesk for WooCommerce 2.1.2\n"
+"POT-Creation-Date: 2024-10-10 14:45+0530\n"
+"PO-Revision-Date: 2024-10-10 14:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: .\n"
+
+#: Library/class-mwb-zendesk-global-functions.php:111
+msgid "Here is Created Ticket Details"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:115
+#: admin-templates/ticket.php:36 admin-templates/zndsk-all-ticket.php:45
+msgid "Subject"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:119
+msgid "Comment"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:123
+msgid "Phone"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:127
+msgid "Tag"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:446
+msgid "Total Order Count"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:447
+msgid "Average Order Value"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:448
+msgid "Total Spend"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:449
+msgid "Last Purchase"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:450
+msgid "First Purchase"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:451
+msgid "Average Days between Purchase"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:466
+msgid "Order date"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:468
+msgid "Billing Customer Name"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:469
+msgid "Billing Address 1"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:470
+msgid "Billing Address 2"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:471
+msgid "Billing City"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:472
+msgid "Billing State"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:473
+msgid "Billing Post Code"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:474
+msgid "Billing Country"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:475
+msgid "Billing Phone"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:476
+msgid "Billing Company"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:478
+msgid "Shipping Customer Name"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:479
+msgid "Shipping Address 1"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:480
+msgid "Shipping Address 2"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:481
+msgid "Shipping City"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:482
+msgid "Shipping State"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:483
+msgid "Shipping Postcode"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:484
+msgid "Shipping Country"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:485
+msgid "Shipping Company"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:488
+msgid "Payment Method"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:489
+msgid "Customer IP Aaddress"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:490
+msgid "Currency"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:491
+msgid "Discount"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:492
+msgid "Discount Tax"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:493
+msgid "Shipping Amount"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:494
+msgid "Shipping Tax"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:495
+msgid "Order Tax"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:496
+msgid "Order Total"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:497
+msgid "Order Item & Attributes"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:625
+msgid "day"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:683
+msgid "Order ID"
+msgstr ""
+
+#: Library/class-mwb-zendesk-global-functions.php:689
+msgid "Order Status"
+msgstr ""
+
+#: Library/class-mwb-zendesk-manager.php:251
+msgid "Choose your Billing Email"
+msgstr ""
+
+#: Library/class-mwb-zendesk-manager.php:355
+msgid "No KPI data found"
+msgstr ""
+
+#: Library/class-mwb-zendesk-manager.php:356
+msgid "No Order data found"
+msgstr ""
+
+#: Library/class-mwb-zendesk-manager.php:697
+msgid "Automatic Zendesk Ticket Created with ticket number - "
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:63
+#: Library/class-mwb-zendesk-settings.php:64
+msgid "Zendesk Order Sync"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:72
+msgid "Account Settings"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:74
+msgid "Order Configuration"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:89
+msgid "Zendesk Account Settings"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:99
+msgid "Invalid URL"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:109
+msgid "Invalid Email"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:144
+msgid "Your Credential is successfully saved !"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:178
+msgid "Zendesk Tickets"
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:194
+msgid "Please Setup Zendesk Account details."
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:205
+msgid ""
+"Zendesk API Error. Please enter correct details or contact WPSwings support."
+msgstr ""
+
+#: Library/class-mwb-zendesk-settings.php:244
+msgid "No tickets found"
+msgstr ""
+
+#: admin-templates/order-configuration.php:42
+msgid "Order Configuration Settings"
+msgstr ""
+
+#: admin-templates/order-configuration.php:45
+msgid "Selected Options Saved."
+msgstr ""
+
+#: admin-templates/order-configuration.php:49
+msgid "No Changes."
+msgstr ""
+
+#: admin-templates/order-configuration.php:56
+msgid "Enable to Create Automatic Ticket based on Order Status"
+msgstr ""
+
+#: admin-templates/order-configuration.php:64
+msgid "Select Order Status for Zendesk Ticket"
+msgstr ""
+
+#: admin-templates/order-configuration.php:78
+msgid "Enter Subject For Automatic Ticket"
+msgstr ""
+
+#: admin-templates/order-configuration.php:81
+msgid ""
+"If the subject value is not entered, the automatic ticket will not be "
+"created based on the order status."
+msgstr ""
+
+#: admin-templates/order-configuration.php:90
+msgid "Enter Comment For Automatic Ticket"
+msgstr ""
+
+#: admin-templates/order-configuration.php:93
+msgid ""
+"If the comment value is not entered, the automatic ticket will not be "
+"created based on the order status."
+msgstr ""
+
+#: admin-templates/order-configuration.php:103
+msgid "Enter Tag For Automatic Ticket"
+msgstr ""
+
+#: admin-templates/order-configuration.php:106
+msgid ""
+"If the tag value is not entered, the automatic ticket will not be created "
+"based on the order status."
+msgstr ""
+
+#: admin-templates/order-configuration.php:115
+msgid "Latest Orders Count"
+msgstr ""
+
+#: admin-templates/order-configuration.php:118
+msgid "Select the number of orders that will list on Zendesk app"
+msgstr ""
+
+#: admin-templates/order-configuration.php:128
+msgid "KPI Fields"
+msgstr ""
+
+#: admin-templates/order-configuration.php:131
+msgid "KPI fields for Zendesk App"
+msgstr ""
+
+#: admin-templates/order-configuration.php:137
+msgid "List of fields that you can show under KPI fields on Zendesk app"
+msgstr ""
+
+#: admin-templates/order-configuration.php:162
+#: admin-templates/order-configuration.php:229
+msgid "assets/images/switch.png"
+msgstr ""
+
+#: admin-templates/order-configuration.php:164
+msgid "List of fields that will be shown under KPI fields on Zendesk app"
+msgstr ""
+
+#: admin-templates/order-configuration.php:194
+msgid "Order Fields"
+msgstr ""
+
+#: admin-templates/order-configuration.php:197
+msgid "Order fields for Zendesk App"
+msgstr ""
+
+#: admin-templates/order-configuration.php:204
+msgid " List of order fields that you can show on Zendesk app"
+msgstr ""
+
+#: admin-templates/order-configuration.php:232
+msgid "List of order fields that will be shown on Zendesk app"
+msgstr ""
+
+#: admin-templates/order-configuration.php:262
+msgid "Ticket ShortCode"
+msgstr ""
+
+#: admin-templates/order-configuration.php:265
+msgid "Use this ShortCode to Create a New Section For Ticket History"
+msgstr ""
+
+#: admin-templates/order-configuration.php:277
+msgid "Save Options"
+msgstr ""
+
+#: admin-templates/ticket.php:18 admin-templates/ticket.php:31
+msgid "assets/images/loader.gif"
+msgstr ""
+
+#: admin-templates/ticket.php:19 admin-templates/zndsk-all-ticket.php:28
+msgid "Presently no ticket available"
+msgstr ""
+
+#: admin-templates/ticket.php:35 admin-templates/zndsk-all-ticket.php:44
+msgid "Ticket-id"
+msgstr ""
+
+#: admin-templates/ticket.php:37
+msgid "First Comment"
+msgstr ""
+
+#: admin-templates/ticket.php:38 admin-templates/zndsk-all-ticket.php:47
+msgid "Status"
+msgstr ""
+
+#: admin-templates/ticket.php:39
+msgid "Action"
+msgstr ""
+
+#: admin-templates/ticket.php:40
+msgid "Chat History"
+msgstr ""
+
+#: admin-templates/ticket.php:59
+msgid "Add New Comment"
+msgstr ""
+
+#: admin-templates/ticket.php:65
+msgid "Ticket-id-"
+msgstr ""
+
+#: admin-templates/ticket.php:69
+msgid "Subject-"
+msgstr ""
+
+#: admin-templates/ticket.php:111
+msgid "Choose your Email"
+msgstr ""
+
+#: admin-templates/ticket.php:131
+msgid "New Comment"
+msgstr ""
+
+#: admin-templates/ticket.php:168
+msgid "Add a new ticket from here"
+msgstr ""
+
+#: admin-templates/ticket.php:175
+msgid "Subject:"
+msgstr ""
+
+#: admin-templates/ticket.php:181
+msgid "Comment:"
+msgstr ""
+
+#: admin-templates/ticket.php:187
+msgid "Phone:"
+msgstr ""
+
+#: admin-templates/ticket.php:193
+msgid "Ticket Tags:"
+msgstr ""
+
+#: admin-templates/ticket.php:234
+msgid "Choose Your Email"
+msgstr ""
+
+#: admin-templates/ticket.php:257
+msgid "Back"
+msgstr ""
+
+#: admin-templates/zndsk-all-ticket.php:46
+msgid "Description"
+msgstr ""
+
+#: admin-templates/zndsk-all-ticket.php:48
+msgid "View-Tickets"
+msgstr ""
+
+#: emails/class-mwb-zendesk-email-for-ticket.php:105
+msgid ""
+"On Your {site_title} Zendesk Ticket is Raise message from {message_date}"
+msgstr ""
+
+#: emails/class-mwb-zendesk-email-for-ticket.php:112
+msgid "Zendesk Ticket Details"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:90
+msgid "Documentation"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:91
+msgid "Support"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:92
+msgid "Services"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:177
+msgid "Mail Sent Successfully."
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:178
+msgid "Mail not sent"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:179
+msgid "Mail already sent"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:205
+msgid "Settings"
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:239
+msgid ""
+"Support the MWB Zendesk Woo Order Sync plugin development by sending us "
+"tracking data( we just want your Email Address and Name that too only once )."
+msgstr ""
+
+#: mwb-zendesk-woo-order-sync.php:257
+msgid ""
+"WooCommerce is not activated, please activate WooCommerce first to install "
+"and use Order Sync with Zendesk for WooCommerce plugin."
+msgstr ""

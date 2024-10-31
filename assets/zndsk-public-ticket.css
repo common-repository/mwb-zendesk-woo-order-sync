@@ -1,0 +1,352 @@
+.mwb-zendesk-ticket-form label {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    color: #333;
+}
+
+.mwb-zendesk-ticket-form *::placeholder {
+    color: #007aff66;
+}
+
+.mwb-zendesk-ticket-form input[type=text],
+.mwb-zendesk-ticket-form input[type=tel],
+.mwb-zendesk-ticket-form textarea,
+.mwb-zendesk-ticket-form input {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #007aff;
+    margin-top: 8px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    box-shadow: none !important;
+    resize: none;
+    padding: 8px;
+}
+
+.mwb-zendesk-ticket-form textarea:hover,
+.mwb-zendesk-ticket-form input:hover,
+.mwb-zendesk-ticket-form textarea:focus,
+.mwb-zendesk-ticket-form input:focus,
+.mwb-zendesk-ticket-form select:focus,
+.mwb-zendesk-ticket-form select:hover {
+    outline: none;
+    background-color: #fff !important;
+}
+
+.mwb-zendesk-ticket-form {
+    float: left;
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+}
+
+#select_box_email_ticket_create {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+#mwb-create-submit-ticket {
+    background-color: #007aff;
+    color: #fff;
+    border: 1px solid #007aff;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+#mwb-create-submit-ticket:hover {
+    background-color: #fff !important;
+    color: #007aff !important;
+}
+
+.mwb-zendesk-ticket-form p {
+    margin: 0;
+}
+
+.mwb-zendesk-ticket-form .upload_file {
+    margin: 0;
+}
+
+.mwb-zendesk-ticket-form .mwb-subject-error,
+.mwb-zendesk-ticket-form .mwb-error-comment,
+.mwb-zendesk-ticket-form .mwb-error-phone {
+    font-size: 12px;
+    color: #ff0000;
+}
+
+input[type=file].mwb-create-file {
+    width: unset;
+    border: none;
+    padding-left: 0;
+    border: 1px solid #007aff;
+    padding: 10px;
+    max-width: 225px;
+    background-color: #fff;
+    width: 90%;
+    font-size: 14px;
+    color: #007aff;
+    cursor: pointer;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+input[type="file"].mwb-create-file:after {
+    content: 'Upload File';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 76px;
+    background-color: #007aff;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 14px;
+    transition: width 0.3s ease;
+    border-right: 1.5px solid #fff;
+}
+
+input[type="file"].mwb-create-file:hover::after {
+    width: 92%;
+    background-color: #007aff;
+}
+
+input[type="file"].mwb-create-file:focus {
+    outline: none;
+}
+#mwb-updated-comment{
+    margin-top: 15px;
+}
+#select_box_email_ticket_create select {
+    border: 1px solid #007aff;
+    background: none;
+    padding: 5px;
+    width: 100%;
+}
+#mwb-updated-comment textarea {
+    border: 1px #ccc solid;
+    box-shadow: 0px 0px;
+    border-radius: 0px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+#mwb-updated-subject label,
+#select_box_email_ticket_create label,
+#mwb-updated-comment label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    color: #000;
+}
+.mwb_mzwos_customer_messaage{
+    color: blue;
+    
+}
+#mwb-updated-subject {
+    display: flex;
+    align-items: center;
+}
+#mwb-updated-subject p,
+    #mwb-updated-subject label {
+    margin: 0;
+    margin-right: 10px;
+}
+.mwb-ticket-id p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #000;
+}
+button.mwb-zndsk-return-back {
+    background-color: #eeeeee !important;
+    border-color: #eeeeee;
+    color: #333333;
+    border-radius: 0;
+    background: none;
+    cursor: pointer;
+    padding: 0.6180469716em 1.41575em;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    display: inline-block;
+    box-shadow: 0px 0px;
+    -webkit-appearance: none;
+    border: 0;
+}
+.mwb-zndsk-return-back-wrappeer {
+    margin-bottom: 1.618em !important;
+}
+
+
+.mwb-zendesk-select-opt {
+    margin-bottom: 20px;
+}
+
+.wps_zndsk_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+  /* Modal Content */
+  .wps_zndsk_modal-content {
+    margin: auto;
+    width: 80%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+    
+.wps_zndsk_chat_close:hover,
+.wps_zndsk_chat_close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+/* custom */
+
+@media only screen and (max-width: 769px) {
+
+    .mwb-zendesk-ticket-form input[type=text],
+    .mwb-zendesk-ticket-form input[type=tel],
+    .mwb-zendesk-ticket-form textarea,
+    .mwb-zendesk-ticket-form input {
+        width: 100%;
+    }
+
+    .mwb-zendesk-ticket-form {
+        float: unset;
+        width: 100%;
+    }
+
+    #select_box_email_ticket_create select {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+.wps-osz-chat-wrapper {
+    max-height: 400px;
+    overflow-y: auto;   
+}
+  .wps-osz-chat-wrapper .content-inner .media {
+    display: flex;
+  }
+  .wps-osz-chat-wrapper .content-inner .flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .wps-osz-chat-wrapper .img-user {
+    width: 36px;
+    height: 36px;
+    display: block;
+  }
+  .wps-osz-chat-wrapper .img-user img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  .wps-osz-chat-wrapper .content-inner .media .media-body {
+    margin-left: 20px;
+    margin-right: 10px;
+    align-items: flex-start;
+    flex: 1;
+  }
+  .wps-osz-chat-wrapper .content-inner .flex-row-reverse .media-body {
+    margin-left: 10px;
+    margin-right: 20px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  .wps-osz-chat-wrapper .content-inner .media .media-body .msg-wrapper {
+    background-color: #dee2e6;
+    color: #494c57;
+    padding: 6px 15px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  .wps-osz-chat-wrapper .content-inner .media .media-body .msg-wrapper sub{
+    margin-left: 5px;
+  }
+  .wps-osz-chat-wrapper .content-inner .flex-row-reverse .media-body .msg-wrapper {
+    background-color: #2175e2;
+    color: #ffffff;
+  }
+  .wps-osz-chat-wrapper .content-inner .media .time {
+    display: flex;
+    align-items: end;
+    font-size: 12px;
+    color: #9b9b9b;
+  }
+  .wps-osz-chat-wrapper .content-inner .media .media-body .msg-wrapper.p-0 {
+    padding: 0;
+    overflow: hidden;
+  }
+
+.mwb-zndsk-ticket-table-child #wps_chat_modal{
+    z-index: 999999;
+}
+.mwb-zndsk-ticket-table-child #wps_chat_modal .wps_zndsk_modal-content .wps_zndsk_chat_close {
+    position: fixed;
+    top: 15px;
+    background-color: #fff;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    z-index: 9999999;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.wps-osz-chat-wrapper .content-inner .time {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.mwb-zndsk-ticket-table {
+    overflow: auto;
+    max-height: 600px;
+}
+
+.wps_zndsk_modal-content .mwb_chat_history {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 600px;
+    width: 90%;
+    padding: 15px;
+    box-shadow: 0px 0px 7px 0px #3a3a3a;
+    background-color: #fff;
+    border-radius: 10px;
+}

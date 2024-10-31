@@ -1,0 +1,477 @@
+.mwb-reject-button {
+    background-color: #d3d3d3 !important;
+}
+
+#zndsk_loader.loading-style-bg img {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+}
+
+#zndsk_loader.loading-style-bg {
+    background-color: rgba(0, 0, 0, 0.65);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+
+.zndsk_accordion {
+    background-color: #67C6F6;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.zndsk_accordion.active,
+.zndsk_accordion:hover {
+    background-color: #007CBA;
+}
+
+.zndsk_panel {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-top: none;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    transition: max-height 0.2s ease-out;
+    margin-top: 5px;
+}
+
+.zndsk_panel .head {
+    font-weight: 600;
+}
+
+span[data-status="open"] {
+    background: #E34F32;
+    color: #ffffff;
+    padding: 2px 5px 3px 5px;
+    font-weight: 600;
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+span[data-status="pending"] {
+    background: #3091EC;
+    color: #ffffff;
+    padding: 2px 5px 3px 5px;
+    font-weight: 600;
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+span[data-status="solved"] {
+    background: #87929D;
+    color: #ffffff;
+    padding: 2px 5px 3px 5px;
+    font-weight: 600;
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+span[data-status="closed"] {
+    background: #87929D;
+    color: #ffffff;
+    padding: 2px 5px 3px 5px;
+    font-weight: 600;
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+span[data-status="new"] {
+    background: #FFB648;
+    color: #ffffff;
+    padding: 2px 5px 3px 5px;
+    font-weight: 600;
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+.zendesk-column {
+    font-size: 16px;
+    color: #444444;
+}
+
+.setting_text {
+    width: 350px;
+}
+
+.zndsk_setting_ticket_wrapper h2 {
+    font-size: 30px;
+    margin: 45px 0;
+    line-height: 40px;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk_submit {
+    padding-top: 40px;
+}
+
+.zndsk_setting_ticket_wrapper .button.button-primary {
+    background-color: #03363D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-submit {
+    padding-top: 40px;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-column {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-col-left {
+    padding-right: 20px;
+    letter-spacing: 0.45px;
+    width: 40%;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-col-right {
+    width: 40%;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-err-message {
+    width: 20%;
+    padding-left: 20px;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-err-message span {
+    color: #D8000C;
+}
+
+.zndsk_setting_ticket_wrapper .zendesk-column input[type="date"],
+.zndsk_setting_ticket_wrapper input[type="datetime-local"],
+.zndsk_setting_ticket_wrapper input[type="datetime"],
+.zndsk_setting_ticket_wrapper input[type="email"],
+.zndsk_setting_ticket_wrapper input[type="month"],
+.zndsk_setting_ticket_wrapper input[type="number"],
+.zndsk_setting_ticket_wrapper input[type="password"],
+.zndsk_setting_ticket_wrapper input[type="search"],
+.zndsk_setting_ticket_wrapper input[type="tel"],
+.zndsk_setting_ticket_wrapper input[type="text"],
+.zndsk_setting_ticket_wrapper input[type="time"],
+input[type="url"],
+.zndsk_setting_ticket_wrapper input[type="week"] {
+    display: inline-block;
+    padding: 8px 4px 8px 10px !important;
+    min-height: 40px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid #666;
+}
+
+.zndsk_panel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zendesk-status-left {
+    width: 50%;
+    flex: 0 0 50%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+.zendesk-status-right {
+    width: 50%;
+    flex: 0 0 50%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.zendesk-status {
+    padding-top: 10px;
+}
+
+.zendesk-description {
+    padding-bottom: 10px;
+}
+
+.mwb-zndsk-order-config-options .zndsk_setting_table {
+    width: 80%;
+}
+
+.mwb-zndsk-order-config-options .zendesk-col-left {
+    width: 20%;
+}
+
+.mwb-zndsk-order-config-options .zendesk-col-right {
+    width: 60%;
+}
+
+/*Drag and Drop CSS - start*/
+
+.mwb-zndsk-clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.mwb-zndsk-order-config-fields__drag-drop {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.mwb-zndsk-switch-icon {
+    display: block;
+    max-width: 40px;
+    height: auto;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.draggable1 {
+    height: 20px;
+    width: 150px;
+    margin: 2px;
+}
+
+.dropped {
+    position: static !important;
+}
+
+.mwb-zndsk-field-drop {
+    border: 5px solid #ccc;
+    padding: 5px;
+    min-height: 100px;
+    width: 430px;
+}
+
+.mwb-zndsk-order-config-fields__drag ul,
+.mwb-zndsk-order-config-fields__drop ul {
+    width: 100% !important;
+}
+
+.mwb-zndsk-order-config-fields__drag ul,
+.mwb-zndsk-order-config-fields__drop ul {
+    border: none !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.mwb-zndsk-order-config-fields__drag,
+.mwb-zndsk-order-config-fields__drop {
+    background: #ffffff;
+    border: 4px double #ccc !important;
+    float: left;
+    max-height: 250px;
+    min-height: 250px;
+    overflow-y: auto;
+    width: calc(100% - 8px);
+}
+
+.mwb-zndsk-order-config-fields__drop {
+    float: right;
+}
+
+.mwb-zndsk-order-config-fields__drag ul,
+.mwb-zndsk-order-config-fields__drop ul {
+    width: 100% !important;
+}
+
+.mwb-zndsk-order-config-fields__drag ul,
+.mwb-zndsk-order-config-fields__drop ul {
+    border: none !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.mwb-zndsk-order-config-fields__drag ul li,
+.mwb-zndsk-order-config-fields__drop ul li {
+    background: #ffffff;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+    cursor: move;
+    margin: 0;
+    padding: 10px;
+}
+
+.mwb-zndsk-order-config-fields__drag-drop ul li:hover {
+    background: #ececec;
+}
+
+.mwb-zndsk-order-config-fields__drag ul .ui-draggable-dragging,
+.mwb-zndsk-order-config-fields__drop ul .ui-draggable-dragging {
+    z-index: 10;
+}
+
+.mwb-zndsk-order-config-fields__drag ul li,
+.mwb-zndsk-order-config-fields__drop ul li {
+    background: #ffffff;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+    cursor: move;
+    margin: 0;
+    padding: 10px;
+}
+
+.mwb-zndsk-order-config-fields__drag-drop ul li:hover {
+    background: #ececec;
+}
+
+.mwb-g-modal__cover {
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.mwb-g-modal__close {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    transform: rotate(45deg);
+}
+
+.mwb-g-modal__message {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #053500;
+    left: -200%;
+    max-width: 600px;
+    min-height: 50px;
+    padding: 15px 20px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: centre 1.2s linear;
+    width: 80%;
+}
+
+.mwb-g-modal__content__header {
+    margin: auto;
+}
+
+/* Additional fixes. */
+.mwb-g-modal__content {
+    margin-bottom: -80px;
+}
+
+.mwb-g-modal iframe {
+    height: 536px !important;
+}
+
+
+/*CSS dor tooltip*/
+.mwb-tool-tip {
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+}
+
+.mwb-tool-tip .icon {
+    cursor: help;
+    background-color: #000000d1;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.mwb-tool-tip .description {
+    display: none;
+}
+
+.mwb-tool-tip .icon::after {
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #1a1a1a;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 24px;
+    z-index: 9999;
+    display: none;
+}
+
+.mwb-tool-tip .icon:hover+.description,
+.mwb-tool-tip .icon:hover::after {
+    display: inline-block;
+}
+
+.mwb-tool-tip .description {
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 32px;
+    padding: 5px;
+    font-size: 12px;
+    left: -40px;
+    right: -40px;
+    overflow-wrap: anywhere;
+    max-width: 200px;
+    border-radius: 4px;
+    color: #fff;
+    z-index: 99999;
+}
+
+/*Drag and Drop CSS - end*/
+
+/* Additional Fixes 1.0 */
+
+.mwb-zndsk-heading-title-wrap {
+    flex: 0 0 40%;
+    margin: 0 25px 0 0;
+}
+
+.mwb-zndsk-heading-title-wrap .heading {
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    max-width: 185px;
+    line-height: 1.25;
+}
